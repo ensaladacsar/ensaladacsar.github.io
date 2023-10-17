@@ -1,0 +1,124 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+/*Navegador*/
+nav
+{
+    padding: 5px 15px;
+   background-color: #C87A2B;
+}
+
+.tituloindice
+{
+	text-align: center;
+}
+
+.tituloequipos
+{
+	text-align: center;
+
+}
+
+nav li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+ 	margin-left: 180px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    text-decoration: none;
+
+}
+nav a:hover
+{
+	background-color: #89531C;
+	border-radius: 3px;
+}
+body
+{
+	background-color: #C87A2B;
+	font-family:  Arial, sans-serif;
+	background: url("../imagenes_video/estadio.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+
+}
+
+article
+{
+	background-color: #444444;
+	color: white;
+	padding: 25px;
+	text-align: center;
+	border: 20px groove #C87A2B;
+	float: left;
+	width: 55%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+section
+{
+	padding: 50px 0px;
+}
+
+/*pie de página*/
+footer
+{
+clear: both;
+text-align: center;
+padding: 5px;
+border-top: 2px solid black; 
+font-size: 0.8em;
+font-family: sans-serif;
+background-color: #C87A2B;
+}
+
+table
+{
+	margin: auto;
+	background-color: #F1F1F1;
+	color: black;
+	text-align: center;
+}
+section table{
+	border: 10px solid grey;
+	border-collapse: collapse;
+
+	}
+
+	section table td {
+	border: 3px solid grey;
+	width: 200px;
+	}
+section h1
+{
+	color: white;
+}
+aside
+{
+	background-color: #444444;
+	color: white;
+	padding: 25px;
+	text-align: center;
+	border: 20px groove #C87A2B;
+	width: 20%;
+	float: right;
+	margin-top: 25.5%;
+	margin-right: 2.5%;
+}
+video
+{
+	width: 100%;
+}
+p
+{
+	margin-top: 2%;
+}

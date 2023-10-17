@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset ="utf-8" />
+
+    <title>Proyecto LMGSI - Formulario</title>
+    <link rel="stylesheet" href="../css/estilo.css" />
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Historia</a></li>
+			<li><a href="Equipos.html">Equipos</a></li>
+			<li><a href="Jugadores.html">Jugadores</a></li>
+			<li><a href="Formulario.html">Formulario</a></li>
+		</ul>
+	</nav>
+	<aside style="margin-top: 13%;">
+            <h2>Por si te interesa...</h2>
+            <div>
+                 <p>Mejores momentos del segundo cuarto Lakers contra Oklahoma City Thunder</p>
+                 <video controls autoplay loop muted src="../imagenes_video/highlights.mp4" alt="highlights"/>
+            </div>
+    </aside>
+	<section>
+		<article>
+		<h2>Rellene estos datos para hacerse socio</h2>
+			
+			<form name="formulario" action="#">
+				
+				
+				<fieldset>
+				<legend>Datos Personales</legend>
+					<p>Nombre </p>
+					<input type="text" name="nombre" placeholder="Escriba aqui..." required="required">
+				
+			
+					<p>Apellidos</p>
+					<input type="text" name="Apellidos" placeholder="Escriba aqui..." required="required">
+				
+					<p>Teléfono</p>
+					<input type="tel" name="telefono" placeholder="Escriba aqui..." required="required" pattern="[0-9]{3}-[0-9]{6}">
+			
+				
+					<p>Email</p>
+					<input type="email" name="email" placeholder="Escriba aqui..." required="required">
+			
+				<br/>
+			
+					<p>Fecha de Nacimiento</p>
+					<input type="date" name="fecha" required="required">
+				
+					<p>Sexo</p>
+					<input type="radio" name="sexo" value="H" required="required">Hombre
+					<input type="radio" name="sexo" value="M" required="required">Mujer
+					<input type="radio" name="sexo" value="O" required="required">Otro
+
+				<br/>
+				<br/>
+				
+				</fieldset>
+
+				<br/>
+				<br/>
+				
+					<input style="color: red;" type="checkbox"> Deseo suscribirme al boletín de noticias
+			
+				<br/>
+				<br/>
+				<br/>
+				<input type="submit" value="   Enviar   ">
+				<input type="reset" value="  Borrar  ">
+				
+
+			</form>
+	</section>
+	<footer>
+		<h3>Contáctanos.</h3>
+		<p>
+			<strong>Dirección:</strong>  C. Marqués, s/n, 33401 Avilés, Asturias
+		</p>
+		<p>
+			<strong>Teléfono:</strong> +34 123 45 67 89
+		</p>
+		<p>
+			<strong>email:</strong> ejemplo@gmail.com
+		</p>
+	</footer>
+</body>
+</html>
